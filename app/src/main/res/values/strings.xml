@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EtiScanMotus</string>
+    <string name="etiscan_motus_integrated">EtiScan Motus Integrated</string>
+    <string name="username">Username</string>
+    <string name="acampos">acampos</string>
+    <string name="flq29563">Flq29563</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="motus_integrated_technologies">Motus Integrated Technologies</string>
+    <string name="todo">TODO</string>
+    <string name="_1">1</string>
+    <string name="adlaid">Adlaid</string>
+    <string name="_10003654321">10003654321</string>
+    <string name="_19_10_2021_14_13_pm">19/10/2021 14:13 pm</string>
+    <string name="ok">OK</string>
+    <string name="eliminar">Eliminar</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".EtiScan.EtiScan_Scan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/scan_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:padding="30dp"
+            android:text="Numberpart"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scan_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Contenedor 1"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#01579b"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/scan_numberpart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Nuberpart"
+            android:textAlignment="center"
+            android:textColor="#d50000"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/scan_codemaster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Etiqueta Master"
+            android:enabled="false"
+            android:layout_gravity="center_horizontal"
+            android:ems="18"
+            android:layout_marginTop="30dp"
+            android:imeOptions=""
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/scan_codemaster_serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Serial"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="18"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/scan_codelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="18"
+            android:enabled="false"
+            android:layout_marginTop="30dp"
+            android:hint="Etiqueta Bandera"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/scan_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:enabled="false"
+            android:text="SIGUIENTE"
+            android:ems="18"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

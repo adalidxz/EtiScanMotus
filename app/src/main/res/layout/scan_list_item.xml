@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_main_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/listscan_count"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:width="60dp"
+        android:gravity="center"
+        android:text="@string/_1"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/line_y_username_numberpart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/EtiScan_List_Item_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="bottom"
+            android:text="Adalid Campos"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EtiScan_List_Item_NumberPart"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="left"
+            android:text="1492613-F/1492614-R 1492613-F/1492614-R"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_y_username_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/EtiScan_List_Item_Date"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="26/01/2021"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/EtiScan_List_Item_Time"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="14:35 pm" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/EtiScan_List_Item_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:width="100dp"
+        android:gravity="center"
+        android:text="Completed"
+        android:textAlignment="center" />
+
+</LinearLayout>
