@@ -24,7 +24,7 @@
         android:layout_marginEnd="30dp"
         android:ems="10"
         android:hint="@string/username"
-        android:text="@string/acampos"
+        android:text=""
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
@@ -33,7 +33,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:text="@string/flq29563"
+        android:text=""
         android:id="@+id/login_password"
         android:layout_width="323dp"
         android:layout_height="50dp"
